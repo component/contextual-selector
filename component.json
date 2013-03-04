@@ -1,0 +1,9 @@
+{
+  "name": "contextual-selector",
+  "description": "Get a selector for an element given a contextual selector",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
