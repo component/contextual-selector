@@ -11,10 +11,12 @@ Create a selector for an element that includes its context.
 
 Examples:
 
-    contextualSelector('#a, #b') === '#a *, #b *'
-    contextualSelector('#a, #b', 'p') === '#a p, #b p'
-    contextualSelector('#a, #b', 'p', '>') === '#a>p, #b>p'
-    contextualSelector('#a, #b', 'p', '~') === '#a~p, #b~p'
+```js
+contextualSelector('#a, #b') === '#a *, #b *'
+contextualSelector('#a, #b', 'p') === '#a p, #b p'
+contextualSelector('#a, #b', 'p', '>') === '#a>p, #b>p'
+contextualSelector('#a, #b', 'p', '~') === '#a~p, #b~p'
+```
 
 ## Compatibility
 
