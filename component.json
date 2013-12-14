@@ -1,8 +1,8 @@
 {
   "name": "contextual-selector",
   "description": "Get a selector for an element given a contextual selector",
-  "repo": "jonathanong/contextual-selector",
-  "version": "0.0.1",
+  "repo": "component/contextual-selector",
+  "version": "0.0.2",
   "main": "index.js",
   "scripts": [
     "index.js"
